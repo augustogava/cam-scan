@@ -1,5 +1,7 @@
 <?php
 set_time_limit(999999);
+$port = "90";
+$range = "179.111.216.0/24";
 
 function parseIP( $content ){
 	$p = explode("(", $content );
@@ -14,8 +16,6 @@ function validIP($ip){
         return false;
 } 
 
-$port = "90";
-$range = "179.111.216.0/24";
 $ips = array();
 
 while (@ ob_end_flush()); 
