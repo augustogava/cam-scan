@@ -1,2 +1,2 @@
 # cam-scan
-Automatic scan for open cameras open.
+Automatic scan for open cameras.
